@@ -15,7 +15,8 @@
 
 
 ## 1장 객체 생성과 파괴
-4. Item 4 : [인스턴스화를 막으려거든 private 생성자를 사용하라](src/main/chulhyun96/Item4.md) - chulhyun96
+4. Item 4 : [인스턴스화를 막으려거든 private 생성자를 사용하라](src/main/chulhyun96/chapter1/Item4.md) - chulhyun96
+
 
 
 
