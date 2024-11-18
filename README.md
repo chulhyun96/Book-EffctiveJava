@@ -16,7 +16,7 @@
 
 ## 1장 객체 생성과 파괴
 1. Item 1 : [인스턴스화를 막으려거든 private 생성자를 사용하라](src/main/AwesomeMinsik/chapter1/Item1.md) - AwesomeMinsik
-3. Item 3:  [private 생성자나 열거 타입(enum)으로 싱글톤임을 보증하라](src/main/tjfwltn/item3.md) - tjfwltn
+3. Item 3:  [private 생성자나 열거 타입(enum)으로 싱글톤임을 보증하라](src/main/tjfwltn/chapter1/item3.md) - tjfwltn
 4. Item 4 : [인스턴스화를 막으려거든 private 생성자를 사용하라](src/main/chulhyun96/chapter1/Item4.md) - chulhyun96
 
 
