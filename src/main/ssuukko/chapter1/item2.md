@@ -5,7 +5,6 @@
 - 자바빈즈 패턴(JavaBeans pattern)
 - 빌더 패턴(Builder pattern)
 
-
 ### 점층적 생성자 패턴(Telescoping Constructor Pattern)
 ***
 - 필수 매개변수만 받는 생성자
