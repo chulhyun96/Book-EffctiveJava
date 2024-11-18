@@ -59,7 +59,7 @@ public class AmountDividerExtendsClass extends AmountDivider{
 `final`로 생성된 클래스는 클래스에서 상속이 불가능하다. 이것으로 1차적인 피해를 막을 수 있으며 다른 클래스를 상속할 경우에 컴파일 에러가 나타난다.
 거기에 추가적으로 `private` 생성자를 만들어주고 `AssertionError`를 던져서 예기치 못한 추가적인 2차피해도 막을 수 있다.
 
-유틸리티 클래스에서는 주로 **“절대 호출되지 않아야 할 생성자”**를 차단하기 위해 `private` 생성자에서 `AssertionError`를 활용한다.
+유틸리티 클래스에서는 주로 **절대 호출되지 않아야 할 생성자**를 차단하기 위해 `private` 생성자에서 `AssertionError`를 활용한다.
 이 방식은 유틸리티 클래스 설계의 표준 패턴이며, 다른 `java.util` 클래스들을 살펴보자.
 
 ```java
