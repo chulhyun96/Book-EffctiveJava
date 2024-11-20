@@ -4,14 +4,54 @@
 
 #### 싱글톤 패턴의 단점
 - 테스트하기가 어려워진다.
-- 의존관계상 클라이언트가 구체 클래스에 의존한다. -> DIP 위반.
+
+```java
+class Singleton {
+  private static final Singleton INSTANCE = new Singleton();
+  private String name;
+
+  private Singleton() {
+
+  }
+
+  public static Singleton getInstance() {
+    return INSTANCE;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public String setName(String name) {
+    this.name = name;
+  }
+}
+
+public class SingletonTest {
+
+  @Test
+  public void testNameEquals() {
+    Singleton singleton1 = new Singleton();
+    Singleton singleton2 = new Singleton();
+    
+    singleton1.setName("name1");
+    singleton2.setName("name2");
+    
+    // 논리적으로는 통과해야 하지만, Singleton 클래스는 싱글톤 패턴으로 만들어져 있으므로 fail
+    assertNotEquals(singleton1.getName(), singleton2.getName());
+  }
+}
+```
+- 의존관계상 클라이언트가 구체 클래스에 의존한다. -> DIP 위반
 - 클라이언트가 구체 클래스를 의존하여 OCP 원칙을 위반할 가능성이 높다.
 - 내부 속성을 변경하거나 초기화하기 어렵다.
 - 결론적으로 유연성이 떨어진다.
 
 #### 싱글톤 패턴이 사용되는 예시
 1. 데이터베이스 연결 모듈 등 무거운 일회성 작업
-2. 스프링부트의 싱글톤 컨테이너
+2. 스프링부트의 DI 컨테이너
+3. 자바 라이브러리 `Runtime` 클래스
+4. 자바 라이브러리 `Desktop` 클래스
 
 ### 싱글톤을 만드는 방식
 #### 1. public static final 필드 방식의 싱글톤
