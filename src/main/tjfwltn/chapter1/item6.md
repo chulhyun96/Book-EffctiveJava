@@ -10,7 +10,7 @@ String s3 = new String("Cat"); // 하지 말아야 할 예시
 ```
 자바에서는 문자열을 효율적으로 관리하기 위해 `String Pool`이라는 개념을 사용한다.
 리터럴을 이용한 방식의 `String`은 `String Pool`에 들어가게 되는데,
-`String Pool`에 같은 내용의 `String` 객체가 있다면(String.intern()) 그 객체를 참조하게 하여서 재사용할 수 있는데,
+`String Pool`에 같은 내용의 `String` 객체가 있다면(`String.intern()`) 그 객체를 참조하게 하여서 재사용할 수 있는데,
 하지만 `String`을 `new`로 생성하면 `heap`영역에 항상 새로운 객체를 만들게 된다.
 ![img.png](img.png)
 
