@@ -50,6 +50,42 @@ public class NutritionFacts {
     }
 }
 ```
+아래와 같이 필수 매개변수를 담은 생성자와 모든 매개변수를 필요로 하는 생성자만을 만들었을때  
+필수 매개변수를 제외한 매개변수는 필요없다고 할 때 `argument`에 `0`이라는 불필요한 코드를 넣어줘야하는 문제점이 생긴다.  
+개발자로 하여금 각 `0`의 의미를 쉽게 파악할 수 없다.
+
+```java
+public class NutritionFacts {
+    private final int servingSize;  // 필수
+    private final int servings;     // 필수
+    private final int calories;     // 선택
+    private final int fat;          // 선택
+    private final int sodium;       // 선택
+    private final int carbohydrate; // 선택
+
+    public NutritionFacts(int servingSize, int servings) {
+        this(servingSize, servings, 0);
+    }
+    
+    public NutritionFacts(int servingSize, int servings, int calories, int fat, int sodium, int carbohydrate) {
+        this.servingSize = servingSize;
+        this.servings = servings;
+        this.calories = calories;
+        this.fat = fat;
+        this.sodium = sodium;
+        this.carbohydrate = carbohydrate;
+    }
+}
+```
+
+```java
+public class NutritionFacts {
+  public static void main(String[] args) {
+    NutritionFacts nutritionFacts = new NutritionFacts(1,2,0,0,0);
+  }
+}
+
+```
 
 ### 자바빈즈 패턴(JavaBeans Pattern)
 ***
