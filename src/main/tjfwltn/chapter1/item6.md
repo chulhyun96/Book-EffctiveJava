@@ -64,6 +64,24 @@ time = 5005
 위 메서드가 정확한 값을 주기는 하지만, 제대로 구현했을 때보다 훨씬 느리다. 겨우 오타 하나 때문에 그렇다.
 sum 변수를 `long`이 아닌 `Long`으로 선언하면 불필요한 Long 인스턴스가 약 2<sup>31</sup>개나 만들어진다.
 단순히 `sum`의 타입을 `long`으로 맞춰주기만 한다면,
+
+```java
+public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
+        long sum = sum();
+        long endTime = System.currentTimeMillis();
+        System.out.println("sum = " + sum);
+        System.out.println("time = " + (endTime - startTime));
+    }
+
+    private static long sum() {
+        long sum = 0L; // 타입 수정
+        for (int i = 0; i < Integer.MAX_VALUE; i++) {
+            sum += i;
+        }
+        return sum;
+    }
+```
 ```Console
 sum = 2305843005992468481
 time = 499
