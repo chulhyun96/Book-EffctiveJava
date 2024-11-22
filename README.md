@@ -31,4 +31,4 @@
 7. Item 7 : [다쓴 객체 참조를 해제하라](src/main/AwesomeMinsik/chapter1/Item7.md) - AwesomeMinsik
 8. Item 9 : [try - finally 보다는 try - with - resources 를 사용하라](src/main/chulhyun96/chapter1/Item9.md)
 
-
+10. Item 11 : [equals를 재정의할 때는 hashCode도 재정의하라](src/main/tjfwltn/chapter3/Item11.md) - tjfwltn
