@@ -19,7 +19,6 @@ public class Main {
             if (myResource != null) {
                 myResource.close(); // -> 자원을 닫아줌 (닫는 과정에 오류가 발생함(
             }
-
         }
     }
 }

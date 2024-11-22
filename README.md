@@ -22,11 +22,13 @@
 
 ---
 
-1. Item 1 : [생성자 대신 정적 팩터리 메서드를 고려하라 ](src/main/AwesomeMinsik/chapter1/Item1.md) - AwesomeMinsik
+1. Item 1 : [생성자 대신 정적 팩터리 메서드를 고려하라](src/main/AwesomeMinsik/chapter1/Item1.md) - AwesomeMinsik
 2. Item 2 : [생성자에 매개변수가 많다면 빌더를 고려하라](src/main/ssuukko/chapter1/item2.md) - ssuukko
 3. Item 3:  [private 생성자나 열거 타입(enum)으로 싱글톤임을 보증하라](src/main/tjfwltn/item3.md) - tjfwltn
 4. Item 4 : [인스턴스화를 막으려거든 private 생성자를 사용하라](src/main/chulhyun96/chapter1/Item4.md) - chulhyun96
 4. Item 5 : [자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](src/main/ssuukko/chapter1/item5.md) - ssuukko
 6. Item 6 : [불필요한 객체 생성을 피하라](src/main/tjfwltn/item6.md) - tjfwltn
+7. Item 7 : [다쓴 객체 참조를 해제하라](src/main/AwesomeMinsik/chapter1/Item7.md) - AwesomeMinsik
+8. Item 9 : [try - finally 보다는 try - with - resources 를 사용하라](src/main/chulhyun96/chapter1/Item9.md)
 
 
