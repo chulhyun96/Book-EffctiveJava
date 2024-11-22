@@ -21,7 +21,6 @@
 ## 1장 객체 생성과 파괴 
 
 ---
-
 1. Item 1 : [생성자 대신 정적 팩터리 메서드를 고려하라](src/main/AwesomeMinsik/chapter1/Item1.md) - AwesomeMinsik
 2. Item 2 : [생성자에 매개변수가 많다면 빌더를 고려하라](src/main/ssuukko/chapter1/item2.md) - ssuukko
 3. Item 3:  [private 생성자나 열거 타입(enum)으로 싱글톤임을 보증하라](src/main/tjfwltn/item3.md) - tjfwltn
@@ -30,6 +29,10 @@
 6. Item 6 : [불필요한 객체 생성을 피하라](src/main/tjfwltn/item6.md) - tjfwltn
 7. Item 7 : [다쓴 객체 참조를 해제하라](src/main/AwesomeMinsik/chapter1/Item7.md) - AwesomeMinsik
 8. Item 9 : [try - finally 보다는 try - with - resources 를 사용하라](src/main/chulhyun96/chapter1/Item9.md)
+---
+## 2장 모든 객체의 공통 메서드
 
-10. Item 11 : [equals를 재정의할 때는 hashCode도 재정의하라](src/main/tjfwltn/chapter3/Item11.md) - tjfwltn
-12. Item 12 : [toString 항상 재정의하라](src/main/ssuukko/chapter2/item12.md) - ssuukko
+---
+9. Item 11 : [equals를 재정의할 때는 hashCode도 재정의하라](src/main/tjfwltn/chapter3/Item11.md) - tjfwltn
+10. Item 12 : [toString 항상 재정의하라](src/main/ssuukko/chapter2/item12.md) - ssuukko
+12. Item 14 : [Comparable을 구현할지 고려하라](src/main/chulhyun96/chapter2/Item14.md) - chulhyun96 
