@@ -32,3 +32,4 @@
 8. Item 9 : [try - finally 보다는 try - with - resources 를 사용하라](src/main/chulhyun96/chapter1/Item9.md)
 
 10. Item 11 : [equals를 재정의할 때는 hashCode도 재정의하라](src/main/tjfwltn/chapter3/Item11.md) - tjfwltn
+12. Item 12 : [toString 항상 재정의하라](src/main/ssuukko/chapter2/item12.md) - ssuukko
