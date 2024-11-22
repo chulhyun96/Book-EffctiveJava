@@ -33,7 +33,7 @@
 ## 2장 모든 객체의 공통 메서드
 
 ---
-9. Item 10 : [equals는 일반 규약을 지켜 재정의하라](src/main/AwesomeMinsik/chapter3/Item10.md) - tjfwltn 
+9. Item 10 : [equals는 일반 규약을 지켜 재정의하라](src/main/AwesomeMinsik/chapter3/Item10.md) - AwesomeMinsik 
 10. Item 11 : [equals를 재정의할 때는 hashCode도 재정의하라](src/main/tjfwltn/chapter3/Item11.md) - tjfwltn
 11. Item 12 : [toString 항상 재정의하라](src/main/ssuukko/chapter2/item12.md) - ssuukko
 12. Item 14 : [Comparable을 구현할지 고려하라](src/main/chulhyun96/chapter2/Item14.md) - chulhyun96 
