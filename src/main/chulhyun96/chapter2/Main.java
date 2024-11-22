@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        TreeSet<Person> set = new TreeSet<>();
+        Set<Person> set = new TreeSet<>();
         set.add(new Person("ssuukko", 30));
         set.add(new Person("ssuukko", 25)); // 동일 이름, 다른 나이
         set.add(new Person("AwesomeMinsik", 40));
